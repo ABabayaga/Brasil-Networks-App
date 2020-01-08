@@ -27,9 +27,16 @@
       </div>
 
       <div class="my-2">
-        <v-btn block color="primary" dark large @click="drawer = !drawer" router :to="routew">
+        <v-btn
+          block
+          color="primary"
+          large
+          dark
+          href="https://www.globo.com/"
+          @click="drawer = !drawer"
+        >
           <div>
-            <span class="d-block" align="center">Whatsapp</span>
+            <span class="d-block" align="center">Whatsappdfgdfg</span>
             <span class="d-block text-none">Tire dúvidas ou solicitações com nosso time</span>
           </div>
         </v-btn>
@@ -53,10 +60,10 @@ export default {
     drawer: true,
     // routeh: "/",
     routep: "/planos",
-    routec: "/central",
-    routew: "/whatsapp",
-    routecon: "/contato",
-    url: "http://143.137.52.46/central_assinante_web/login"
+    // routec: "/central",
+    // routew: "/whatsapp",
+    routecon: "/contato"
+    // url: "http://143.137.52.46/central_assinante_web/login"
   })
 };
 </script>
