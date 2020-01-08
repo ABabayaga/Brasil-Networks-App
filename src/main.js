@@ -11,6 +11,7 @@ Vue.use(VueRouter)
 import Planos from './components/Planos'
 import Central from './components/Central'
 // import Botoes from './components/Botoes'
+import Contato from './components/Contato'
 
 const routers = [{
   name: 'Home',
@@ -26,6 +27,11 @@ const routers = [{
   name: 'Central',
   path: '/central',
   component: Central
+},
+{
+  name: 'Contato',
+  path: '/contato',
+  component: Contato
 }
 ]
 
