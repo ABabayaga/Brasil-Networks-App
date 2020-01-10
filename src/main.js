@@ -9,7 +9,7 @@ Vue.use(VueRouter)
 
 // import Home from './components/shared/navigation'
 import Planos from './components/Planos'
-import Central from './components/Central'
+// import Central from './components/Central'
 // import Botoes from './components/Botoes'
 import Contato from './components/Contato'
 
@@ -23,11 +23,11 @@ const routers = [{
   path: '/planos',
   component: Planos
 },
-{
-  name: 'Central',
-  path: '/central',
-  component: Central
-},
+// {
+//   name: 'Central',
+//   path: '/central',
+//   component: Central
+// },
 {
   name: 'Contato',
   path: '/contato',

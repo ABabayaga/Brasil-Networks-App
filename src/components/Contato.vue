@@ -1,5 +1,6 @@
 <template>
-  <v-card>
+  <v-card height="600px" color="#E0E0E0"
+>
     <div class="pt-3 text-xs-center grey--text text--darken-2 font-weight-regular">
       <h3>ENTRE EM CONTATO CONOSCO</h3>
     </div>
@@ -11,22 +12,22 @@
       <p>Será um prazer atendê-lo (a)!</p>
 
       <div>
-        <v-icon size="20px">fas fa-phone</v-icon>
+        <v-icon size="21px">fas fa-phone-square</v-icon>
         <span class="pl-1">67 3388 8730</span>
       </div>
       <div>
-        <v-icon size="20px">fab fa-whatsapp-square</v-icon>
+        <v-icon size="21px">fab fa-whatsapp-square</v-icon>
         <span class="pl-1">67 99252 2626</span>
       </div>
 
       <div class="pt-1">
-        <v-icon size="20px">fas fa-envelope</v-icon>
+        <v-icon size="21px">fas fa-envelope</v-icon>
         <span class="pl-1">comercial@brasiltecnologianetwork.com.br</span>
       </div>
 
-      <div class="pt-3">
-        <v-icon size="20px">fas fa-map-marker-alt</v-icon>
-        <span class="pl-1">Rua Inubia Paulista, n 704 - Campo Grande-MS</span>
+      <div class="pt-3 text-center">
+        <v-icon size="21px">fas fa-map-marker-alt</v-icon>
+        <span class="pl-1 ">Rua Inubia Paulista, n 704 - Campo Grande-MS</span>
       </div>
 
      
