@@ -2,8 +2,15 @@
     <v-footer  height="auto" inset app>
       <v-card color='#64B5F6'  flat tile class=" lighten-1 white--text text-xs-center flex">
         <v-card-text>
-          <v-btn v-for="icon in icons" :key="icon" class="mx-3" dark icon>
+          <!-- <v-btn v-for="icon in icons" :key="icon" class="mx-3" dark icon>
             <v-icon size="24px">{{icon}}</v-icon>
+          </v-btn> -->
+
+          <v-btn href="https://www.facebook.com/brasilnetworks/"   class="mx-3" dark icon>
+            <v-icon size="24px">fab fa-facebook</v-icon>
+          </v-btn>
+           <v-btn href="https://www.instagram.com/brasil.networks/?hl=pt-br" class="mx-3" dark icon>
+            <v-icon size="24px">fab fa-instagram</v-icon>
           </v-btn>
         </v-card-text>
 
@@ -14,7 +21,7 @@
         <v-divider></v-divider>
 
         <v-card-text class="white--text text-center">
-          &copy;2019 - <strong>Brasil Networks Solutions Digitais</strong>
+          &copy;2020 - <strong>Brasil Networks Solutions Digitais</strong>
         </v-card-text>
       </v-card>
     </v-footer>

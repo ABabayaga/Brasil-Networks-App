@@ -6,8 +6,8 @@
       <v-toolbar-side-icon
         router
         :to="routeh"
-        @click="drawer = !drawer"
-        v-on:click="conexao = !conexao"
+        @click="drawer = !false"
+        v-on:click="conexao = true"
       ></v-toolbar-side-icon>
       <atom-spinner :animation-duration="1000" :size="50" :color="'#FFFFFF'" />
       <v-toolbar-title>Brasil Networks</v-toolbar-title>
@@ -21,6 +21,7 @@
       <div class="text-center">
         <div class="my-2">
           <v-btn
+          
             block
             large
             color="primary"
@@ -75,7 +76,8 @@
             block
             color="primary"
             dark
-            v-on:click="conexao = !conexao"
+         
+          v-on:click="conexao = false"
             @click="drawer= !drawer"
             router
             :to="routecon"
@@ -91,7 +93,7 @@
     <!-- <Imagem /> -->
 
     <v-card>
-      <v-img v-if="conexao" :src="image" position="center bottom" width="360" height="170"></v-img>
+      <v-img v-if="conexao == true" :src="image" position="center bottom" width="410" height="290"></v-img>
     </v-card>
 
     <v-content>
@@ -121,12 +123,13 @@ export default {
   data: () => ({
     drawer: true,
     conexao: true,
+    
     routeh: "/",
     routep: "/planos",
     // routec: "/central",
     // routew: "/whatsapp",
     routecon: "/contato",
-    url: "http://143.137.52.46/central_assinante_web/login",
+    // url: "http://143.137.52.46/central_assinante_web/login",
     image: require("@/assets/conexao.jpeg")
   })
 };

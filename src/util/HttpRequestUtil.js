@@ -1,4 +1,7 @@
-const API_URL = 'http://localhost:3000'
+// const API_URL = 'http://localhost:3000'
+const API_URL = 'http://192.168.13.101:3000'
+
+
 
 import axios from "axios"
 
