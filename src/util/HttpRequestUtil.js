@@ -1,12 +1,13 @@
 // const API_URL = 'http://localhost:3000'
-const API_URL = 'http://192.168.13.101:3000'
+// const API_URL = 'http://192.168.13.101:3000'
+const API_URL = 'https://brnw.herokuapp.com'
 
 
 
 import axios from "axios"
 
 export default {
- 
+
 
   //Planos
   async buscarPlanos() {
@@ -18,6 +19,6 @@ export default {
   // }
 
 
-  
+
 
 };

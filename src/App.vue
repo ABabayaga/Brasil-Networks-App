@@ -93,7 +93,7 @@
     <!-- <Imagem /> -->
 
     <v-card>
-      <v-img v-if="conexao == true" :src="image" position="center bottom" width="410" height="290"></v-img>
+      <v-img v-if="conexao == true" :src="image" position="center bottom" width="410" height="340"></v-img>
     </v-card>
 
     <v-content>
